@@ -1,0 +1,28 @@
+Testsuite: ita.signup.RespondentTests
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 1.089 sec
+------------- Standard Error -----------------
+--Output from testConstraints--
+------------- ---------------- ---------------
+
+Testcase: testConstraints took 1.052 sec
+	FAILED
+Assertion failed: 
+
+assert "email" == respondent.errors["emailAddress"]
+               |  |          |     |
+               |  |          |     null
+               |  |          org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 0 errors
+               |  ita.signup.Respondent : 1
+               false
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert "email" == respondent.errors["emailAddress"]
+               |  |          |     |
+               |  |          |     null
+               |  |          org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 0 errors
+               |  ita.signup.Respondent : 1
+               false
+
+	at ita.signup.RespondentTests.testConstraints(RespondentTests.groovy:18)
+

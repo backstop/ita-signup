@@ -18,7 +18,7 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
+		<div id="logo" role="banner"><a href="http://www.illinoistech.org/page.aspx/Fall_Challenge"><img src="${resource(dir: 'images', file: '2012_Fall_Challenge_Logo_web.png')}" alt="ITA Fall Challenge presented by Backstop Solutions Group"/></a></div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="cb-air" id="0" name="RespondentTests" package="ita.signup" tests="1" time="1.089" timestamp="2012-09-02T17:54:56">
+      <properties />
+
+      <testcase classname="ita.signup.RespondentTests" name="testConstraints" time="1.055">
+          <failure message="Assertion failed: &#xa;&#xa;assert &quot;email&quot; == respondent.errors[&quot;emailAddress&quot;]&#xa;               |  |          |     |&#xa;               |  |          |     null&#xa;               |  |          org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 0 errors&#xa;               |  ita.signup.Respondent : 1&#xa;               false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert &quot;email&quot; == respondent.errors[&quot;emailAddress&quot;]
+               |  |          |     |
+               |  |          |     null
+               |  |          org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 0 errors
+               |  ita.signup.Respondent : 1
+               false
+
+	at ita.signup.RespondentTests.testConstraints(RespondentTests.groovy:18)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
