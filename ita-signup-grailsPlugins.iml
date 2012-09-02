@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/hibernate-2.0.4" />
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/tomcat-2.0.4" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.0.4" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library (ita-signup-grailsPlugins)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
