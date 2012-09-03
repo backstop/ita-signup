@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6fd00bd-061b-47e6-8eeb-1b7eae760005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ita-signup-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ita-signup.iml" afterPath="$PROJECT_DIR$/ita-signup.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ita-signup.ipr" afterPath="$PROJECT_DIR$/ita-signup.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/ita/signup/Respondent.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/ita/signup/Respondent.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/respondent/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/respondent/create.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ita-signup.iws" afterPath="$PROJECT_DIR$/ita-signup.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/main.css" afterPath="$PROJECT_DIR$/web-app/css/main.css" />
     </list>
     <ignored path="ita-signup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,12 +78,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.gsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/create.gsp">
+      <file leaf-file-name="Respondent.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/ita/signup/Respondent.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="139" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.43165466">
+            <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.105337076">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -540,21 +539,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="78" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.60431653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/ita/signup/Respondent.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.18960674">
+        <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.105337076">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="139" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.43165466">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>

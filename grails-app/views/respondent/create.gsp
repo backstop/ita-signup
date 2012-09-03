@@ -4,7 +4,7 @@
 	<head>
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'respondent.label', default: 'Respondent')}" />
-		<title><g:message code="default.create.label" args="[entityName]" /></title>
+		<title>2012 ITA Fall Challenge</title>
 	</head>
 	<body>
 		<a href="#create-respondent" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -13,7 +13,7 @@
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>
-            <div class="info" role="status">If you love questions like the one on the board, you'll love the ITA Fall Challenge. Good luck!</div>
+            <div class="info" role="status">If you like questions like the one on the board, you'll love the ITA Fall Challenge. Good luck!</div>
 			<g:hasErrors bean="${respondentInstance}">
 			<ul class="errors" role="alert">
 				<g:eachError bean="${respondentInstance}" var="error">
@@ -26,7 +26,7 @@
 					<g:render template="form"/>
 				</fieldset>
 				<fieldset class="buttons">
-					<g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
+					<g:submitButton name="create" class="save" value="Register" />
 				</fieldset>
 			</g:form>
 		</div>

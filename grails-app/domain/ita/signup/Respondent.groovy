@@ -1,8 +1,8 @@
 package ita.signup
 
 class Respondent {
-    String emailAddress
     String response
+    String emailAddress
 
     static constraints = {
         response inList: ["Joe", "Fred", "Bob"]
