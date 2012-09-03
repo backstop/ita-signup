@@ -27,8 +27,11 @@ class RespondentController {
         }
 
 		flash.message = message(code: 'default.created.message', args: [message(code: 'respondent.label', default: 'Respondent'), respondentInstance.id])
-        redirect(action: "show", id: respondentInstance.id)
+        redirect(action: "thanks")
     }
+
+    def thanks() {}
+
 
     def show() {
         def respondentInstance = Respondent.get(params.id)
