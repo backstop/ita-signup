@@ -36,7 +36,7 @@ grails.mime.types = [
 grails.resources.adhoc.patterns = ['/images/*', '/css/*', '/js/*', '/plugins/*']
 
 // The default codec used to encode data with ${}
-grails.views.default.codec = "none" // none, html, base64
+grails.views.default.codec = "html" // none, html, base64
 grails.views.gsp.encoding = "UTF-8"
 grails.converters.encoding = "UTF-8"
 // enable Sitemesh preprocessing of GSP pages
@@ -65,7 +65,7 @@ environments {
     }
     production {
         grails.logging.jul.usebridge = false
-        // TODO: grails.serverURL = "http://www.changeme.com"
+        // TODO: grails.serverURL = "http://www.2changeme.com"
     }
 }
 
@@ -88,9 +88,25 @@ log4j = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
+
+    trace 'org.springframework.security'
 }
 
 // Added by the Spring Security Core plugin:
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.itasignup.User'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.itasignup.UserRole'
 grails.plugins.springsecurity.authority.className = 'com.itasignup.Role'
+grails.plugins.springsecurity.rejectIfNoRule = true
+grails.plugins.springsecurity.securityConfigType = "InterceptUrlMap"
+grails.plugins.springsecurity.interceptUrlMap = [
+        '/js/**': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/css/**': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/images/**': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/login/**': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/logout/**': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/errors/**': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/respondent/thanks': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/respondent/save': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/respondent/create': ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/': ['IS_AUTHENTICATED_ANONYMOUSLY']
+]
