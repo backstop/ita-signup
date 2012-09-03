@@ -6,6 +6,7 @@
         <webroots>
           <root url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/database-migration-1.1/grails-app/views" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/jquery-1.7.2/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/errors-0.7/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -22,6 +23,9 @@
     <content url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/database-migration-1.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/database-migration-1.1/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/database-migration-1.1/grails-app/controllers" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/errors-0.7">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/errors-0.7/grails-app/i18n" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/hibernate-2.0.4" />
     <content url="file://$USER_HOME$/.grails/2.0.4/projects/ita-signup/plugins/jquery-1.7.2">

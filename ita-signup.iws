@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6fd00bd-061b-47e6-8eeb-1b7eae760005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/respondent/thanks.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/ita/signup/RespondentController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/ita/signup/RespondentController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ita-signup-grailsPlugins.iml" afterPath="$PROJECT_DIR$/ita-signup-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ita-signup.iws" afterPath="$PROJECT_DIR$/ita-signup.iws" />
     </list>
     <ignored path="ita-signup.iws" />
@@ -78,10 +79,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="thanks.gsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/thanks.gsp">
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="343" selection-end="343" vertical-scroll-proportion="0.36945814">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,13 +104,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/test/unit/ita/signup/RespondentTests.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/main.css" />
         <option value="$PROJECT_DIR$/grails-app/views/respondent/create.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/ita/signup/Respondent.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/ita/signup/RespondentController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/respondent/thanks.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
       </list>
     </option>
   </component>
@@ -460,13 +461,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/jar/grails-2.0.4/lib/junit/junit/jars/junit-4.10.jar!/org/junit/internal/runners/statements/RunAfters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jar/grails-2.0.4/lib/junit/junit/jars/junit-4.10.jar!/org/junit/runners/Suite.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -518,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="178" selection-end="178" vertical-scroll-proportion="0.29801324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/jar/grails-2.0.4/src/grails-plugin-gsp-2.0.4-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/RenderTagLib.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="305" column="12" selection-start="11002" selection-end="11002" vertical-scroll-proportion="0.0">
@@ -563,6 +550,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/thanks.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="343" selection-end="343" vertical-scroll-proportion="0.36945814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0305344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="13" selection-start="73" selection-end="73" vertical-scroll-proportion="0.114503816">
@@ -570,9 +571,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/respondent/thanks.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="343" selection-end="343" vertical-scroll-proportion="0.36945814">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -585,7 +586,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="-1886163976" />
-              <option name="pluginDependenciesCrc" value="-256082009" />
+              <option name="pluginDependenciesCrc" value="-1554656267" />
               <option name="properties">
                 <map>
                   <entry key="grails.project.class.dir" value="target/classes" />

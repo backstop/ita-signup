@@ -8,6 +8,10 @@ class UrlMappings {
 		}
 
 		"/"(controller: "respondent", action:"/create")
-		"500"(view:'/error')
+
+		// Added by Errors plugin
+		"403"(controller: "errors", action: "error403")
+		"404"(controller: "errors", action: "error404")
+		"500"(controller: "errors", action: "error500")
 	}
 }
