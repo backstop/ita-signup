@@ -5,7 +5,7 @@ class Respondent {
     String emailAddress
 
     static constraints = {
-        response inList: ["Joe", "Fred", "Bob"]
+        response inList: ["A","B","C","D"]
         emailAddress email: true, blank: false
     }
 }
