@@ -1,3 +1,4 @@
+*.sql
 *.iws
 *Db.properties
 *Db.script
